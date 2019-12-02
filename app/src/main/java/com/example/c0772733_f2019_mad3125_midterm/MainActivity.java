@@ -172,7 +172,7 @@ public class MainActivity extends AppCompatActivity {
                     dob.setTextColor(getResources().getColor(R.color.colorAccent));
                     dob.setTypeface(null, Typeface.BOLD_ITALIC);
                     dob.setError("Not Eligible For filing tax");
-                    
+
 
                 }
 

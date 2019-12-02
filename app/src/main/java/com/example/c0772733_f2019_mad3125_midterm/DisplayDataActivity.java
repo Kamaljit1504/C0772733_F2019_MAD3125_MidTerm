@@ -18,7 +18,7 @@ public class DisplayDataActivity extends AppCompatActivity {
     CRACustomer c;
     TextView sin,fullname,gender,age,taxdate,grossIncome,federalTax,provincialTax,cpp,ei,carry,totalTaxableIncome,Totaltax;
 
-    // m = (Marks) getIntent().getSerializableExtra("marks");
+ 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -67,22 +67,6 @@ public class DisplayDataActivity extends AppCompatActivity {
         Totaltax.setText(String.valueOf(c.getTotalTaxPaid()));
 
 
-
-//        System.out.println("Sin Number : "+c.getSinNumber());
-//
-//        System.out.println("Full Name : "+c.getFullName());
-//        System.out.println("DOB : "+c.getDateOfBirth());
-//        System.out.println("Age : "+c.getAge());
-//        System.out.println("Gender : "+c.getGender());
-//        System.out.println("Cpp : "+c.getCpp());
-//        System.out.println("Rrsp : "+c.getRrsp());
-//        System.out.println("Max Rrsp : "+c.getMaxRrsp());
-//        System.out.println("Carry : "+c.getCarryForwardRrsp());
-//        System.out.println("Ei : " + c.getEI());
-//        System.out.println("Total Taxable Income : "+c.getTotalTaxedIncome());
-//        System.out.println("Federal Tax : "+c.getFedralTax());
-//        System.out.println("Provincial Tax : "+c.getProvincialTax());
-//        System.out.println("Total Tax Paid : "+c.getTotalTaxPaid());
 
 
 
