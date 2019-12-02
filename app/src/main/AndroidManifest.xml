@@ -9,8 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DisplayDataActivity"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".DisplayDataActivity"
+            android:label="TAX DETAILS"
+            android:parentActivityName=".MainActivity">
+
+        </activity>
+        <activity android:name=".MainActivity"
+            android:label="Enter your Details">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
