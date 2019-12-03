@@ -141,7 +141,7 @@ public class MainActivity extends AppCompatActivity {
                     rrsp.setError("This Field Cannot Be Empty");
                 }
 
-
+//text string
                 if(sin.getText().toString().length() != 11) {
                     sin.setError("Sin Incorrect");
 
