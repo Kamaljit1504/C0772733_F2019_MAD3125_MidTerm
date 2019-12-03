@@ -100,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-
+//tax button
 
 
         calTaxBtn.setOnClickListener(new View.OnClickListener() {
