@@ -54,7 +54,7 @@ public class DisplayDataActivity extends AppCompatActivity {
             carry.setTextColor(this.getResources().getColor(colorAccent));
             carry.setTypeface(null, Typeface.BOLD_ITALIC);
         }
-        
+  //show data
         sin.setText(c.getSinNumber());
         fullname.setText(c.getFullName());
         gender.setText(c.getGender());
