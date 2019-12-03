@@ -153,6 +153,7 @@ public class MainActivity extends AppCompatActivity {
                     firstName.setError("This Field Cannot Be Empty");
 
                 }
+  // last name
                 if(lastName.getText().toString().length()==0)
                 {
                     lastName.setError("This Field Cannot Be Empty");
