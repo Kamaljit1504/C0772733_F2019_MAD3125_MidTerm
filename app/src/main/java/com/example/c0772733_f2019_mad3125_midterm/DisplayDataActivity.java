@@ -29,9 +29,7 @@ public class DisplayDataActivity extends AppCompatActivity {
         c = (CRACustomer) getIntent().getParcelableExtra("data");
 //display
         sin=findViewById(R.id.txtSin);
-
         fullname=findViewById(R.id.txtFullName);
-
         gender=findViewById(R.id.txtGender);
         age=findViewById(R.id.txtAge);
         taxdate=findViewById(R.id.txtTaxDate);
@@ -43,7 +41,7 @@ public class DisplayDataActivity extends AppCompatActivity {
         carry=findViewById(R.id.txtCarryFrwd);
         totalTaxableIncome=findViewById(R.id.txtTaxableIncome);
         Totaltax=findViewById(R.id.txtTotalTax);
-
+//number format
         NumberFormat nf= NumberFormat.getInstance(Locale.CANADA);
         System.out.println(nf.format(c.getCpp()));
 
