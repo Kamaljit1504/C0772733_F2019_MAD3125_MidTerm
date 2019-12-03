@@ -191,7 +191,7 @@ public class MainActivity extends AppCompatActivity {
                 cDetail.setRrsp(Double.parseDouble((rrsp.getText().toString())));
                 cDetail.setGender(gender);
                 cDetail.setAge(Integer.toString(age));
-
+//data
                 i.putExtra("data", cDetail);
 
                 startActivity(i);
