@@ -138,7 +138,7 @@ public class MainActivity extends AppCompatActivity {
                     lastName.setError("This Field Cannot Be Empty"); //last name empty
                     dob.setError("This Field Cannot Be Empty");  //dob empty
                     grossIncome.setError("This Field Cannot Be Empty");//gross income empty
-                    rrsp.setError("This Field Cannot Be Empty");
+                    rrsp.setError("This Field Cannot Be Empty"); //rrsp empty
                 }
 
 //text
