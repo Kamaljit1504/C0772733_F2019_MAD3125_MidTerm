@@ -218,7 +218,7 @@ public class CRACustomer implements Parcelable {
     public double CalCpp(){
 
         if(GrossIncome>=57400){
-            Cpp=  54700*0.051;
+            Cpp=  57400*0.051;
         }
         else{
             Cpp=GrossIncome*0.051;
@@ -367,7 +367,7 @@ public class CRACustomer implements Parcelable {
                 tax=tti;
             }
 
-            tax=tax*0.505;
+            tax=tax*0.0505;
             calculatedPtax=calculatedPtax+tax;
 //            System.out.println("TAX 1:"+calculatedPtax);
 //            System.out.println("FTax range 1 : "+tti);
@@ -382,7 +382,7 @@ public class CRACustomer implements Parcelable {
                 else {
                     tax=tti;
                 }
-                tax=tax*0.915;
+                tax=tax*0.0915;
                 //   System.out.println("TAX 2:"+tax);
                 calculatedPtax=calculatedPtax+tax;
                 //  System.out.println("FTax range 2 : "+tti );
