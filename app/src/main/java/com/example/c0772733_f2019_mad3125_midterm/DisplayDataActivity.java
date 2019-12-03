@@ -62,7 +62,7 @@ public class DisplayDataActivity extends AppCompatActivity {
         age.setText(c.getAge());
         taxdate.setText(currdate);
         grossIncome.setText(String.valueOf(c.getGrossIncome()));
-        federalTax.setText(String.valueOf(c.getFedralTax()));
+        federalTax.setText(String.valueOf(nf.format(c.getFedralTax())));
         provincialTax.setText(String.valueOf(nf.format(c.getProvincialTax())));
         cpp.setText(String.valueOf(c.getCpp()));
         ei.setText(String.valueOf(nf.format(c.getEI())));
