@@ -42,7 +42,7 @@ public class DisplayDataActivity extends AppCompatActivity {
         totalTaxableIncome=findViewById(R.id.txtTaxableIncome);
         Totaltax=findViewById(R.id.txtTotalTax);
 
-        NumberFormat nf= NumberFormat.getCurrencyInstance(Locale.CANADA);
+        NumberFormat nf= NumberFormat.getInstance(Locale.CANADA);
         System.out.println(nf.format(c.getCpp()));
 
 
@@ -63,10 +63,10 @@ public class DisplayDataActivity extends AppCompatActivity {
         taxdate.setText(currdate);
         grossIncome.setText(String.valueOf(c.getGrossIncome()));
         federalTax.setText(String.valueOf(c.getFedralTax()));
-        provincialTax.setText(String.valueOf(c.getProvincialTax()));
+        provincialTax.setText(String.valueOf(nf.format(c.getProvincialTax())));
         cpp.setText(String.valueOf(c.getCpp()));
-        ei.setText(String.valueOf(c.getEI()));
-        carry.setText(String.valueOf(c.getCarryForwardRrsp()));
+        ei.setText(String.valueOf(nf.format(c.getEI())));
+        carry.setText(String.valueOf(nf.format(c.getCarryForwardRrsp())));
         totalTaxableIncome.setText(String.valueOf(c.getTotalTaxedIncome()));
         Totaltax.setText(String.valueOf(c.getTotalTaxPaid()));
 
