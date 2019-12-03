@@ -159,6 +159,7 @@ public class MainActivity extends AppCompatActivity {
                     lastName.setError("This Field Cannot Be Empty");
 
                 }
+                //dob
                 if(dob.getText().toString().length()==0)
                 {
                     dob.setError("This Field Cannot Be Empty");
