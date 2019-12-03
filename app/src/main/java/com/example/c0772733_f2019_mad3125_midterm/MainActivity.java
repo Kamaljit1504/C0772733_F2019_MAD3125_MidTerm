@@ -161,7 +161,7 @@ public class MainActivity extends AppCompatActivity {
                     dob.setError("This Field Cannot Be Empty");
 
                 }
-
+// age if
 
                 if(age<18)
                 {
