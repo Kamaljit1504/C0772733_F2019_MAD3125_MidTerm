@@ -135,7 +135,7 @@ public class MainActivity extends AppCompatActivity {
                 ){
                     sin.setError("Sin Incorrect");  // error handle
                     firstName.setError("This Field Cannot Be Empty"); //first name empty
-                    lastName.setError("This Field Cannot Be Empty");
+                    lastName.setError("This Field Cannot Be Empty"); //last name empty
                     dob.setError("This Field Cannot Be Empty");
                     grossIncome.setError("This Field Cannot Be Empty");
                     rrsp.setError("This Field Cannot Be Empty");
