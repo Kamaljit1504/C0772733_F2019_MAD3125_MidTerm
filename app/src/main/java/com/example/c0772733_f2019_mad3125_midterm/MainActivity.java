@@ -200,7 +200,7 @@ public class MainActivity extends AppCompatActivity {
                 cDetail.setGender(gender);
                 cDetail.setAge(Integer.toString(age));
 
-
+//extra
                 i.putExtra("data", cDetail);
 
                 startActivity(i);
