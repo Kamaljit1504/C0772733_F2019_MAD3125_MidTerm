@@ -45,7 +45,7 @@ public class DisplayDataActivity extends AppCompatActivity {
         NumberFormat nf= NumberFormat.getInstance(Locale.CANADA);
         System.out.println(nf.format(c.getCpp()));
 
-
+//date format
         SimpleDateFormat sm=new SimpleDateFormat("dd-MMM-yyyy", Locale.US);
         Calendar myCalendar = Calendar.getInstance();
         String currdate=sm.format(myCalendar.getTime());
