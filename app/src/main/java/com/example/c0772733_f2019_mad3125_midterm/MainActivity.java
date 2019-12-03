@@ -182,9 +182,6 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-
-
-
                 Intent i = new Intent(MainActivity.this, DisplayDataActivity.class);
                 CRACustomer cDetail = new CRACustomer();
                 cDetail.setSinNumber(sin.getText().toString());
