@@ -31,6 +31,7 @@ public class DisplayDataActivity extends AppCompatActivity {
         sin=findViewById(R.id.txtSin);
 
         fullname=findViewById(R.id.txtFullName);
+
         gender=findViewById(R.id.txtGender);
         age=findViewById(R.id.txtAge);
         taxdate=findViewById(R.id.txtTaxDate);
