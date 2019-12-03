@@ -141,7 +141,7 @@ public class MainActivity extends AppCompatActivity {
                     rrsp.setError("This Field Cannot Be Empty");
                 }
 
-//text string
+
                 if(sin.getText().toString().length() != 11) {
                     sin.setError("Sin Incorrect");
 
@@ -149,25 +149,25 @@ public class MainActivity extends AppCompatActivity {
                 if(firstName.getText().toString().length()==0)
                 {
                     firstName.setError("This Field Cannot Be Empty");
-// first name
+
                 }
                 if(lastName.getText().toString().length()==0)
                 {
                     lastName.setError("This Field Cannot Be Empty");
 
- //error               }
+                }
                 if(dob.getText().toString().length()==0)
                 {
                     dob.setError("This Field Cannot Be Empty");
 
                 }
-// age if
-
                 if(age<18)
                 {
                     dob.setTextColor(getResources().getColor(R.color.colorAccent));
                     dob.setTypeface(null, Typeface.BOLD_ITALIC);
                     dob.setError("Not Eligible For filing tax");
+
+
                 }
 
                 if(grossIncome.getText().toString().length()==0)
@@ -181,6 +181,10 @@ public class MainActivity extends AppCompatActivity {
                 }
 
 
+
+
+
+
                 Intent i = new Intent(MainActivity.this, DisplayDataActivity.class);
                 CRACustomer cDetail = new CRACustomer();
                 cDetail.setSinNumber(sin.getText().toString());
@@ -191,9 +195,10 @@ public class MainActivity extends AppCompatActivity {
                 cDetail.setRrsp(Double.parseDouble((rrsp.getText().toString())));
                 cDetail.setGender(gender);
                 cDetail.setAge(Integer.toString(age));
-//data
+
+
                 i.putExtra("data", cDetail);
-//start Activity
+
                 startActivity(i);
 
 
