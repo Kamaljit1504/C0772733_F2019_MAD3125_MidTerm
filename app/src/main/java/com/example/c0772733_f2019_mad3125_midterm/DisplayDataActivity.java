@@ -27,7 +27,7 @@ public class DisplayDataActivity extends AppCompatActivity {
         setContentView(R.layout.activity_display_data);
 
         c = (CRACustomer) getIntent().getParcelableExtra("data");
-
+//display
         sin=findViewById(R.id.txtSin);
         fullname=findViewById(R.id.txtFullName);
         gender=findViewById(R.id.txtGender);
