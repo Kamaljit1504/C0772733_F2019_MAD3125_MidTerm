@@ -123,7 +123,7 @@ public class MainActivity extends AppCompatActivity {
                     }
 
                 }
-                ///kdhjewgfuyerg
+
                 if(sin.getText().toString().length() != 11 &&
                         firstName.getText().toString().length()==0 &&
                         lastName.getText().toString().length()==0 &&
