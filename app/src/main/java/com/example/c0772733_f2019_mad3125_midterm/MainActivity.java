@@ -45,13 +45,8 @@ public class MainActivity extends AppCompatActivity {
         calTaxBtn=findViewById(R.id.btnCalculate);
 
 
-//
-//        String strsin = sin.getText().toString();
-//
-//        if(TextUtils.) {
-//            sin.setError("Your message");
-//            return;
-//        }
+// Age calculater
+
 
 
         final Calendar myCalendar = Calendar.getInstance();
