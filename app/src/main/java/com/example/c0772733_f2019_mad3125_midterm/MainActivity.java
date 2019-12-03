@@ -187,7 +187,7 @@ public class MainActivity extends AppCompatActivity {
                     rrsp.setError("This Field Cannot Be Empty");
                 }
 
-
+//intent
 
                 Intent i = new Intent(MainActivity.this, DisplayDataActivity.class);
                 CRACustomer cDetail = new CRACustomer();
