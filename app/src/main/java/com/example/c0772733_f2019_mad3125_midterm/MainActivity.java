@@ -174,6 +174,7 @@ public class MainActivity extends AppCompatActivity {
 
 
                 }
+                //gross income
 
                 if(grossIncome.getText().toString().length()==0)
                 {
