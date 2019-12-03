@@ -203,6 +203,7 @@ public class MainActivity extends AppCompatActivity {
 //extra
                 i.putExtra("data", cDetail);
 
+ //start activity
                 startActivity(i);
 
 
