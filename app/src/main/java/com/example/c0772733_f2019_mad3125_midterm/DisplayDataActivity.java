@@ -49,6 +49,7 @@ public class DisplayDataActivity extends AppCompatActivity {
         SimpleDateFormat sm=new SimpleDateFormat("dd-MMM-yyyy", Locale.US);
         Calendar myCalendar = Calendar.getInstance();
         String currdate=sm.format(myCalendar.getTime());
+ //crr if
         if(c.getCarryForwardRrsp()<0){
             carry.setTextColor(this.getResources().getColor(colorAccent));
             carry.setTypeface(null, Typeface.BOLD_ITALIC);
