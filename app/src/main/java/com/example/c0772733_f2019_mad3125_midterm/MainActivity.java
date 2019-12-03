@@ -193,7 +193,7 @@ public class MainActivity extends AppCompatActivity {
                 cDetail.setAge(Integer.toString(age));
 //data
                 i.putExtra("data", cDetail);
-
+//start Activity
                 startActivity(i);
 
 
